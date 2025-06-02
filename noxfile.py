@@ -25,7 +25,7 @@ except ImportError:
 
 package = "my_jupyter_notebook_kata"
 python_versions = ["3.12"]
-nox.needs_version = ">= 2021.6.6"
+nox.needs_version = ">= 2025.2.1"
 nox.options.sessions = (
     "pre-commit",
     "safety",
@@ -33,7 +33,7 @@ nox.options.sessions = (
     "tests",
     "typeguard",
     "xdoctest",
-    "docs-build",
+    "docs-build"
 )
 
 
